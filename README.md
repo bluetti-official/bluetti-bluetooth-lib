@@ -14,7 +14,7 @@ Bluetooth encryption and decryption module has two files, when installing, you n
 
 - `bluetti_crypt.py`: Python package for bluetooth encryption and decryption module.
 - `_bluetti_crypt.so`: Bluetooth encryption and decryption module library file to implement encryption and decryption functions.
-  
+
 Note: The file extension .so is for Linux and MacOS, and .py for windows.
 
 # Installation Steps
@@ -26,6 +26,8 @@ Note: The file extension .so is for Linux and MacOS, and .py for windows.
 3. Copy the Bluetooth encryption module to the installation directory.
 
 4. Copy and encrypt/decrypt the authorization file to the 'Program' runtime directory and name it bluetti_device_licence.csv.
+   
+   Note:The Bluetooth decryption module uses the Communication Board SN.  Viewing method: BLUETOOTH APP -> Settings -> About Device -> Communication Board SN
 
 Linux environment can use the command to install, the command is as follows:
 
